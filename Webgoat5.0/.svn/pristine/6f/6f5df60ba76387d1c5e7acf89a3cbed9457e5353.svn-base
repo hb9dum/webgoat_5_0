@@ -1,0 +1,52 @@
+﻿ package PackageNo1025105462;import java.util.*;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.SQLInjection.SQLInjection; public class ListStaff_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+     
+     	WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     	int myUserId = webSession.getUserIdInLesson();
+     
+    response.write(webSession.getUserNameInLesson())+response.write(request.getAttribute("webSession").getUserNameInLesson());
+
+
+
+
+
+     response.write(webSession.getCurrentMenu())+response.write(request.getAttribute("webSession").getCurrentMenu());
+
+
+
+     response.write(SQLInjection.getEMPLOYEE_ID())+response.write(request.getAttribute("SQLInjection").getEMPLOYEE_ID());
+       
+     			      	List employees = (List) session.getAttribute("SQLInjection." + SQLInjection.STAFF_ATTRIBUTE_KEY);
+     			      	Iterator i = employees.iterator();
+     					while (i.hasNext())
+     					{
+     						EmployeeStub stub = (EmployeeStub) i.next();
+ response.write(Integer.getToString(stub().getId()))+response.write(request.getAttribute("Integer").getToString(stub().getId()));response.write(stub.getFirstName() + " " + stub.getLastName()+ " (" + stub.getRole() + ")");
+     					}
+
+
+
+     response.write(SQLInjection.getSEARCHSTAFF_ACTION())+response.write(request.getAttribute("SQLInjection").getSEARCHSTAFF_ACTION());
+     response.write(SQLInjection.getVIEWPROFILE_ACTION())+response.write(request.getAttribute("SQLInjection").getVIEWPROFILE_ACTION());
+    
+     				if (webSession.isAuthorizedInLesson(myUserId, SQLInjection.CREATEPROFILE_ACTION))
+     				{
+     				
+response.write(SQLInjection.getCREATEPROFILE_ACTION())+response.write(request.getAttribute("SQLInjection").getCREATEPROFILE_ACTION());
+  
+     				}
+     				
+    
+     				if (webSession.isAuthorizedInLesson(myUserId, SQLInjection.DELETEPROFILE_ACTION))
+     				{
+     				
+response.write(SQLInjection.getDELETEPROFILE_ACTION())+response.write(request.getAttribute("SQLInjection").getDELETEPROFILE_ACTION());
+  
+     				}
+     				
+
+response.write(SQLInjection.getLOGOUT_ACTION())+response.write(request.getAttribute("SQLInjection").getLOGOUT_ACTION());
+}
+
+}

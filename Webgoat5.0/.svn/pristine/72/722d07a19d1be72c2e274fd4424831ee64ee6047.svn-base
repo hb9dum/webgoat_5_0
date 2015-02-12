@@ -1,0 +1,28 @@
+﻿ package PackageNo1184177413;import org.owasp.webgoat.session.WebSession; public class sideWindow_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+
+     
+     WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     
+
+
+
+
+
+
+
+
+
+
+      
+     			String source = webSession.getSource();
+     			if (source != null)
+     			{
+     				String printSource = "<div id=\"source\">" + source + "</div><br>";
+     				out.println(printSource);
+     			}
+     	
+}
+
+}

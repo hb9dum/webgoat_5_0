@@ -1,0 +1,51 @@
+﻿ package PackageNo1721100747;import java.util.*;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.CrossSiteScripting.CrossSiteScripting; public class ListStaff_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+     
+     	WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     	int myUserId = webSession.getUserIdInLesson();
+     
+    response.write(webSession.getUserNameInLesson())+response.write(request.getAttribute("webSession").getUserNameInLesson());
+
+
+
+
+     response.write(webSession.getCurrentMenu())+response.write(request.getAttribute("webSession").getCurrentMenu());
+
+
+
+     response.write(CrossSiteScripting.getEMPLOYEE_ID())+response.write(request.getAttribute("CrossSiteScripting").getEMPLOYEE_ID());
+       
+     			      	List employees = (List) session.getAttribute("CrossSiteScripting." + CrossSiteScripting.STAFF_ATTRIBUTE_KEY);
+     			      	Iterator i = employees.iterator();
+     					while (i.hasNext())
+     					{
+     						EmployeeStub stub = (EmployeeStub) i.next();
+ response.write(Integer.getToString(stub().getId()))+response.write(request.getAttribute("Integer").getToString(stub().getId()));response.write(stub.getFirstName() + " " + stub.getLastName()+ " (" + stub.getRole() + ")");
+     					}
+
+
+
+     response.write(CrossSiteScripting.getSEARCHSTAFF_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getSEARCHSTAFF_ACTION());
+     response.write(CrossSiteScripting.getVIEWPROFILE_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getVIEWPROFILE_ACTION());
+    
+     				if (webSession.isAuthorizedInLesson(myUserId, CrossSiteScripting.CREATEPROFILE_ACTION))
+     				{
+     				
+response.write(CrossSiteScripting.getCREATEPROFILE_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getCREATEPROFILE_ACTION());
+  
+     				}
+     				
+    
+     				if (webSession.isAuthorizedInLesson(myUserId, CrossSiteScripting.DELETEPROFILE_ACTION))
+     				{
+     				
+response.write(CrossSiteScripting.getDELETEPROFILE_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getDELETEPROFILE_ACTION());
+  
+     				}
+     				
+
+response.write(CrossSiteScripting.getLOGOUT_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getLOGOUT_ACTION());
+}
+
+}

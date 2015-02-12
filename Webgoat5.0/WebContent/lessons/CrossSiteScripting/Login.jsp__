@@ -1,0 +1,37 @@
+﻿ package PackageNo902066628;import java.util.*;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.CrossSiteScripting.CrossSiteScripting; public class Login_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+
+
+ 
+     			WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     			
+      response.write(webSession.getCurrentMenu())+response.write(request.getAttribute("webSession").getCurrentMenu());
+
+     response.write(CrossSiteScripting.getEMPLOYEE_ID())+response.write(request.getAttribute("CrossSiteScripting").getEMPLOYEE_ID());
+       
+     			      	Vector attrs = new Vector();
+     			      	Enumeration ee = session.getAttributeNames();
+     			      	while (ee.hasMoreElements())
+     			      		attrs.add(ee.nextElement());
+     			      	//System.out.println("Login.jsp inspecting session attributes: " + attrs);
+     			      	//System.out.println("Retrieving employees list");
+     			      	List employees = (List) session.getAttribute("CrossSiteScripting." + CrossSiteScripting.STAFF_ATTRIBUTE_KEY);
+     			      	Iterator i = employees.iterator();
+     					while (i.hasNext())
+     					{
+     						EmployeeStub stub = (EmployeeStub) i.next();
+     					
+     response.write(Integer.getToString(stub().getId()))+response.write(request.getAttribute("Integer").getToString(stub().getId()));response.write(stub.getFirstName() + " " + stub.getLastName() + " (" + stub.getRole() + ")");
+  }
+
+
+
+
+
+
+
+       response.write(CrossSiteScripting.getLOGIN_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getLOGIN_ACTION());
+}
+
+}

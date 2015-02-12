@@ -1,0 +1,131 @@
+﻿ package PackageNo1886743885;import java.util.*;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.SQLInjection.SQLInjection; public class EditProfile_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+     
+     	WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     	Employee employee = (Employee) session.getAttribute("SQLInjection.Employee");
+     
+     response.write(webSession.getUserNameInLesson())+response.write(request.getAttribute("webSession").getUserNameInLesson());
+
+      response.write(webSession.getCurrentMenu())+response.write(request.getAttribute("webSession").getCurrentMenu());
+
+
+
+
+
+ response.write(SQLInjection.getFIRST_NAME())+response.write(request.getAttribute("SQLInjection").getFIRST_NAME());response.write(employee.getFirstName())+response.write(request.getAttribute("employee").getFirstName());
+
+
+
+
+
+  response.write(SQLInjection.getLAST_NAME())+response.write(request.getAttribute("SQLInjection").getLAST_NAME());response.write(employee.getLastName())+response.write(request.getAttribute("employee").getLastName());
+
+
+
+
+
+
+ response.write(SQLInjection.getADDRESS1())+response.write(request.getAttribute("SQLInjection").getADDRESS1());response.write(employee.getAddress1())+response.write(request.getAttribute("employee").getAddress1());
+
+
+
+
+ response.write(SQLInjection.getADDRESS2())+response.write(request.getAttribute("SQLInjection").getADDRESS2());response.write(employee.getAddress2())+response.write(request.getAttribute("employee").getAddress2());
+
+
+
+
+
+
+ response.write(SQLInjection.getPHONE_NUMBER())+response.write(request.getAttribute("SQLInjection").getPHONE_NUMBER());response.write(employee.getPhoneNumber())+response.write(request.getAttribute("employee").getPhoneNumber());
+
+
+
+
+
+ response.write(SQLInjection.getSTART_DATE())+response.write(request.getAttribute("SQLInjection").getSTART_DATE());response.write(employee.getStartDate())+response.write(request.getAttribute("employee").getStartDate());
+
+
+
+
+
+
+    response.write(SQLInjection.getSSN())+response.write(request.getAttribute("SQLInjection").getSSN());response.write(employee.getSsn())+response.write(request.getAttribute("employee").getSsn());
+
+
+
+
+
+ response.write(SQLInjection.getSALARY())+response.write(request.getAttribute("SQLInjection").getSALARY());response.write(employee.getSalary())+response.write(request.getAttribute("employee").getSalary());
+
+
+
+
+
+
+ response.write(SQLInjection.getCCN())+response.write(request.getAttribute("SQLInjection").getCCN());response.write(employee.getCcn())+response.write(request.getAttribute("employee").getCcn());
+
+
+
+
+
+ response.write(SQLInjection.getCCN_LIMIT())+response.write(request.getAttribute("SQLInjection").getCCN_LIMIT());response.write(employee.getCcnLimit())+response.write(request.getAttribute("employee").getCcnLimit());
+
+
+
+
+
+
+ response.write(SQLInjection.getDESCRIPTION())+response.write(request.getAttribute("SQLInjection").getDESCRIPTION());response.write(employee.getPersonalDescription())+response.write(request.getAttribute("employee").getPersonalDescription());
+
+
+
+
+
+ response.write(SQLInjection.getMANAGER())+response.write(request.getAttribute("SQLInjection").getMANAGER());
+   
+     				      	List employees = (List) session.getAttribute("SQLInjection.Staff");
+     				      	Iterator i = employees.iterator();
+     						while (i.hasNext())
+     						{
+     							EmployeeStub stub = (EmployeeStub) i.next();
+     								
+   response.write(Integer.getToString(stub().getId()))+response.write(request.getAttribute("Integer").getToString(stub().getId()));response.write(stub.getFirstName() + " " + stub.getLastName());
+   }
+
+
+
+
+
+
+
+ response.write(SQLInjection.getDISCIPLINARY_NOTES())+response.write(request.getAttribute("SQLInjection").getDISCIPLINARY_NOTES());response.write(employee.getDisciplinaryActionNotes())+response.write(request.getAttribute("employee").getDisciplinaryActionNotes());
+
+
+
+
+
+ response.write(SQLInjection.getDISCIPLINARY_DATE())+response.write(request.getAttribute("SQLInjection").getDISCIPLINARY_DATE());response.write(employee.getDisciplinaryActionDate())+response.write(request.getAttribute("employee").getDisciplinaryActionDate());
+
+
+
+
+
+
+
+
+  response.write(SQLInjection.getVIEWPROFILE_ACTION())+response.write(request.getAttribute("SQLInjection").getVIEWPROFILE_ACTION());
+
+
+
+   response.write(SQLInjection.getEMPLOYEE_ID())+response.write(request.getAttribute("SQLInjection").getEMPLOYEE_ID());response.write(employee.getId())+response.write(request.getAttribute("employee").getId());
+  response.write(SQLInjection.getTITLE())+response.write(request.getAttribute("SQLInjection").getTITLE());response.write(employee.getTitle())+response.write(request.getAttribute("employee").getTitle());
+  response.write(SQLInjection.getUPDATEPROFILE_ACTION())+response.write(request.getAttribute("SQLInjection").getUPDATEPROFILE_ACTION());
+
+
+
+   response.write(SQLInjection.getLOGOUT_ACTION())+response.write(request.getAttribute("SQLInjection").getLOGOUT_ACTION());
+}
+
+}

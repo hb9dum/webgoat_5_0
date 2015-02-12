@@ -1,0 +1,4 @@
+﻿ package PackageNo189223294; public class error_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+}
+
+}

@@ -1,0 +1,17 @@
+﻿ package PackageNo266483272; public class config_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();
+
+
+
+
+
+
+
+
+      response.sendRedirect("/WebGoat/attack?" +
+     		"Screen=" + request.getParameter("Screen") +
+     		"&menu=" + request.getParameter("menu") +
+     		"&succeeded=yes"); 
+     
+}
+
+}

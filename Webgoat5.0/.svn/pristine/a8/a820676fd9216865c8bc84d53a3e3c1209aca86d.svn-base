@@ -1,0 +1,222 @@
+﻿ package PackageNo1737499411;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.Category;import org.owasp.webgoat.lessons.AbstractLesson;import java.util.*; public class main_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+     
+     Course course = ((Course)session.getAttribute("course"));
+     WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     AbstractLesson currentLesson = webSession.getCurrentLesson();
+     
+
+
+
+
+
+ response.write(currentLesson.getTitle())+response.write(request.getAttribute("currentLesson").getTitle());
+
+
+
+
+
+
+
+
+
+
+     
+     final String menuPrefix = "menu";
+     final String submenuPrefix = "submenu";
+     final String mbutPrefix = "mbut";
+     String printHint = "";
+     String printParameters = "";
+     String printCookies = "";
+     String lessonComplete = "<img src=\"images/buttons/lessonComplete.jpg\">";
+     String m = "menu";
+     String menu = request.getParameter(m);
+     
+     List categories = course.getCategories();
+     
+     StringBuffer buildList = new StringBuffer();
+     
+     	Iterator iter1 = categories.iterator();
+ while(iter1.hasNext())
+ {
+     Category category = (Category)iter1.next();
+     
+     buildList.append("'");
+     buildList.append(menuPrefix);
+     buildList.append(category.getRanking());
+     buildList.append("','");
+     buildList.append(submenuPrefix);
+     buildList.append(category.getRanking());
+     buildList.append("','");
+     buildList.append(mbutPrefix);
+     buildList.append(category.getRanking());
+     buildList.append("'");
+     
+     if (iter1.hasNext())
+     		buildList.append(",");
+ }
+   response.write(buildList)+response.write(request.getAttribute("buildList"));
+
+
+      
+     	int topCord = 140;
+     	int zIndex = 105;
+     
+     		Iterator iter2 = categories.iterator();
+     		while(iter2.hasNext())
+     		{
+     		    Category category = (Category)iter2.next();
+     		
+     response.write(topCord)+response.write(request.getAttribute("topCord"));response.write(zIndex)+response.write(request.getAttribute("zIndex"));    response.write(category.getRanking())+response.write(request.getAttribute("category").getRanking()); response.write(category.getName())+response.write(request.getAttribute("category").getName());
+       
+     		topCord=topCord + 30;
+     		zIndex=zIndex + 1;
+     		}
+     
+     			int topSubMenu = 72;
+     
+     			Iterator iter3 = categories.iterator();
+     			while(iter3.hasNext())
+     			{
+     			    	Category category = (Category)iter3.next();
+     				List lessons = webSession.getLessons(category);
+     			    Iterator iter4 = lessons.iterator();
+     			
+     response.write(category.getRanking())+response.write(request.getAttribute("category").getRanking());response.write(topSubMenu)+response.write(request.getAttribute("topSubMenu"));response.write(zIndex)+response.write(request.getAttribute("zIndex"));
+
+     
+     	  		topSubMenu=topSubMenu+30;
+     			zIndex=zIndex + 1;
+     
+     		  	while(iter4.hasNext())
+     			{
+     		    		AbstractLesson lesson = (AbstractLesson)iter4.next();
+     
+     			
+       response.write((lesson.isCompleted(webSession) ? lessonComplete : ""));response.write(lesson.getLink())+response.write(request.getAttribute("lesson").getLink());response.write(category.getRanking())+response.write(request.getAttribute("category").getRanking());response.write(lesson.getTitle())+response.write(request.getAttribute("lesson").getTitle());
+ 
+     			}
+     			
+
+     
+     			}
+
+
+
+
+ response.write(currentLesson.getTitle())+response.write(request.getAttribute("currentLesson").getTitle());
+
+ 
+     				if (webSession.isAuthorizedInLesson(webSession.getRole(), WebSession.SHOWHINTS))
+     				{
+     				
+       response.write(menu)+response.write(request.getAttribute("menu"));
+
+
+
+
+       response.write(menu)+response.write(request.getAttribute("menu"));
+
+
+
+
+       response.write(menu)+response.write(request.getAttribute("menu"));
+
+
+
+
+ }
+       response.write(menu)+response.write(request.getAttribute("menu"));
+
+
+
+
+       response.write(menu)+response.write(request.getAttribute("menu"));
+
+
+
+
+ 
+     				if (webSession.isAuthorizedInLesson(webSession.getRole(), WebSession.SHOWSOURCE))
+     				{
+     				
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+  
+     			    if (currentLesson != null)
+     			    {
+     			    	
+response.write(webSession.getRestartLink())+response.write(request.getAttribute("webSession").getRestartLink());
+     
+     	    			}
+     
+     				if (webSession.getHint() != null)
+     				{
+     					printHint = "<div id=\"hint\" class=\"info\">" + webSession.getHint() + "</div><br>";
+     					out.println(printHint);
+     				}
+     
+     				if (webSession.getParams() != null)
+     				{
+     					Iterator i = webSession.getParams().iterator();
+     					while (i.hasNext())
+     					{
+     						Parameter p = (Parameter) i.next();
+     						printParameters = "<div id=\"parameter\" class=\"info\">" + p.getName() + "=" + p.getValue() + "</div><br>";
+     						out.println(printParameters);
+     					}
+     				}
+     
+     				if (webSession.getCookies() != null)
+     				{
+     					Iterator i = webSession.getCookies().iterator();
+     					while (i.hasNext())
+     					{
+     						Cookie c = (Cookie) i.next();
+     						printCookies = "<div id=\"cookie\" class=\"info\">" + c.getName() + " <img src=\"images/icons/rightArrow.jpg\" alt=\"\"> " + c.getValue() + "</div><br>";
+     						out.println(printCookies);
+     					}
+     				}
+       response.write(currentLesson.getLessonPlan(webSession) )+response.write(request.getAttribute("currentLesson").getLessonPlan(webSession) );
+
+
+
+
+      response.write(webSession.getInstructions())+response.write(request.getAttribute("webSession").getInstructions());
+     response.write(webSession.getMessage())+response.write(request.getAttribute("webSession").getMessage());
+
+
+     			if (currentLesson.getTemplatePage(webSession) != null)
+     			{
+     				System.out.println("Main.jsp - current lesson: " + currentLesson.getName() );
+     				System.out.println(" - template Page: " + currentLesson.getTemplatePage(webSession));
+     			
+      response.include(currentLesson.getTemplatePage(webSession));
+
+     			}
+     			else
+     			{
+     			
+     response.write(currentLesson.getContent())+response.write(request.getAttribute("currentLesson").getContent());
+
+     			}
+     			
+
+    out.println(currentLesson.getCredits());
+}
+
+}

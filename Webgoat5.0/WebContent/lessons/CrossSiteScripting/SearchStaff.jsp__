@@ -1,0 +1,23 @@
+﻿ package PackageNo1364226339;import org.owasp.webgoat.session.*;import org.owasp.webgoat.lessons.CrossSiteScripting.CrossSiteScripting; public class SearchStaff_jsp {  public void Checkmarx_Class_Init(HttpServletRequest request, HttpServletResponse response, HttpSession session, ServletContext application, PageContext pageContext) {jspInit();   page.errorPage = "";   
+
+
+
+ 
+     			WebSession webSession = ((WebSession)session.getAttribute("websession"));
+     			String searchedName = request.getParameter(CrossSiteScripting.SEARCHNAME);
+     			if (searchedName != null)
+     			{
+     			
+       response.write(searchedName)+response.write(request.getAttribute("searchedName"));
+
+     			}
+     			
+      response.write(webSession.getCurrentMenu())+response.write(request.getAttribute("webSession").getCurrentMenu());
+
+response.write(CrossSiteScripting.getSEARCHNAME())+response.write(request.getAttribute("CrossSiteScripting").getSEARCHNAME());
+
+
+       response.write(CrossSiteScripting.getFINDPROFILE_ACTION())+response.write(request.getAttribute("CrossSiteScripting").getFINDPROFILE_ACTION());
+}
+
+}

@@ -1,0 +1,1674 @@
+# Enerjy Software baseline data (files=103, problems=1570).
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/HammerHead.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'HammerHead' missing constructor
+problem: JAVA0234:JAVA0234 Class 'HammerHead' is Serializable but does not define serialVersionUID
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0130:JAVA0130 Non-static method 'getViewPage' does not use instance fields
+problem: JAVA0177:JAVA0177 Variable declaration 'page' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0029:JAVA0029 Private method 'dumpSession' not used
+problem: JAVA0130:JAVA0130 Non-static method 'dumpSession' does not use instance fields
+problem: JAVA0111:JAVA0111 Incorrect javadoc: @return tag for void method
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ServletException'
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'IOException'
+problem: JAVA0177:JAVA0177 Variable declaration 'hs' missing initializer
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/LessonSource.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'LessonSource' is Serializable but does not define serialVersionUID
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'END_SOURCE_SKIP'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'response'
+problem: JAVA0177:JAVA0177 Variable declaration 'hs' missing initializer
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'realSession'
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'realSession'
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AbstractLesson.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 56 methods defined in class 'AbstractLesson' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'AJAX_SECURITY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADMIN_FUNCTIONS'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'GENERAL'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CODE_QUALITY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CHALLENGE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CHALLENGE_ROLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractLesson' contains public constructor
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0179:JAVA0179 Local variable 'count' hides visible field
+problem: JAVA0177:JAVA0177 Variable declaration 'line' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0179:JAVA0179 Local variable 'count' hides visible field
+problem: JAVA0177:JAVA0177 Variable declaration 'line' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'hintNumber'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'employeeId'
+problem: JAVA0173:JAVA0173 Unused method parameter 'employeeId'
+problem: JAVA0173:JAVA0173 Unused method parameter 'functionId'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'role'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'getUserId' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'getUserName' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'line' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/AccessControlMatrix.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'user' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'resource' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'getResources' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'getRoles' does not use instance fields
+problem: JAVA0179:JAVA0179 Local variable 'roles' hides visible field
+problem: JAVA0179:JAVA0179 Local variable 'resources' hides visible field
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BackDoors.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0160:JAVA0160 Method 'concept1' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0160:JAVA0160 Method 'concept2' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " The first stage of this lesson is to teach you how to use a vulnerable field to create two SQL ")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " statements. The first is the system's while the second is totally yours.")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " Your account ID is 101. This page allows you to see your password, ssn and salary.")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + "  Try to inject another update to update salary to something higher")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " The second stage of this lesson is to teach you how to use a vulneable fields to inject the DB work or the backdoor.")
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " Now try to use the same technique to inject a trigger that would act as ")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " SQL backdoor, the syntax of a trigger is: <br>")
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " CREATE TRIGGER myBackDoor BEFORE INSERT ON employee FOR EACH ROW BEGIN UPDATE employee SET email='john@hackme.com'WHERE userid = NEW.userid<br>")
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (instructions=instructions + " Note that nothing will actually be executed because the current underlying DB doesn't support triggers.")
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0143:JAVA0143 Synchronized method 'getConnection'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BasicAuthentication.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BlindSqlInjection.java
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0177:JAVA0177 Variable declaration 'answer_query' missing initializer
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'runningOnWindows' does not use instance fields
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/BufferOverflow.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0059:JAVA0059 Method override 'createContent' only calls super()
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CSRF.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'title' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'message' (maximum: 0)
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Category.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Challenge2Screen.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 23 methods defined in class 'Challenge2Screen' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'user' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0179:JAVA0179 Local variable 'user' hides visible field
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'isDefaced' does not use instance fields
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'showDefaceAttempt' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'resetWebPage' does not use instance fields
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0163:JAVA0163 Empty statement
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'protocol' (maximum: 0)
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'message' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CommandInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0177:JAVA0177 Variable declaration 'safeDirName' missing initializer
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (index=index + 1)
+problem: JAVA0174:JAVA0174 Assigned local variable 'safeDirName' never used
+problem: JAVA0177:JAVA0177 Variable declaration 'results' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'parseResults' does not use instance fields
+problem: JAVA0082:JAVA0082 Unnecessary widening cast ((String)st.nextToken().trim())
+problem: JAVA0029:JAVA0029 Private method 'exec' not used
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/CrossSiteScripting.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.CrossSiteScripting' does not contain only lower case letters
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DESCRIPTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_NOTES'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN_LIMIT'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SALARY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'START_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'MANAGER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS1'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS2'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PHONE_NUMBER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'TITLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SSN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LAST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FIRST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PASSWORD'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'USER_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHNAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHRESULT_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'STAFF_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGIN_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGOUT_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LISTSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FINDPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'VIEWPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EDITPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'UPDATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CREATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DELETEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ERROR_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0143:JAVA0143 Synchronized method 'getConnection'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0059:JAVA0059 Method override 'getSourceFileName' only calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/EditProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.CrossSiteScripting' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/FindProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.CrossSiteScripting' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0160:JAVA0160 Method 'getRequestParameter' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0160:JAVA0160 Method 'getRequestParameter_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'findEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/UpdateProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.CrossSiteScripting' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0160:JAVA0160 Method 'parseEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'parseEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0160:JAVA0160 Method 'parseEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'parseEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0173:JAVA0173 Unused method parameter 'subjectId'
+problem: JAVA0173:JAVA0173 Unused method parameter 'parser'
+problem: JAVA0160:JAVA0160 Method 'doParseEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'doParseEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'changeEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'doChangeEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'createEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'createEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/CrossSiteScripting/ViewProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.CrossSiteScripting' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOMInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'key' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DOS_Login.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/DefaultLessonAction.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 24 methods defined in class 'DefaultLessonAction' (maximum: 20)
+problem: JAVA0016:JAVA0016 Abstract class 'DefaultLessonAction' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'calledFromJsp' does not use instance fields
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'caller'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/Encoding.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 29 methods defined in class 'Encoding' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0076:JAVA0076 Use of magic number '236'
+problem: JAVA0076:JAVA0076 Use of magic number '237'
+problem: JAVA0076:JAVA0076 Use of magic number '238'
+problem: JAVA0076:JAVA0076 Use of magic number '239'
+problem: JAVA0076:JAVA0076 Use of magic number '236'
+problem: JAVA0076:JAVA0076 Use of magic number '237'
+problem: JAVA0076:JAVA0076 Use of magic number '238'
+problem: JAVA0076:JAVA0076 Use of magic number '239'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0076:JAVA0076 Use of magic number '0x00'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'input' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'key' (maximum: 0)
+problem: JAVA0177:JAVA0177 Variable declaration 'description' missing initializer
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0143:JAVA0143 Synchronized method 'decryptString'
+problem: JAVA0076:JAVA0076 Use of magic number '20'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0143:JAVA0143 Synchronized method 'encryptString'
+problem: JAVA0126:JAVA0126 Method 'encryptString' declares unchecked exception 'SecurityException' in throws
+problem: JAVA0076:JAVA0076 Use of magic number '20'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'md'
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'md'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'makeRow' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'makeTitleRow' does not use instance fields
+problem: JAVA0143:JAVA0143 Synchronized method 'rot13'
+problem: JAVA0076:JAVA0076 Use of magic number '13'
+problem: JAVA0076:JAVA0076 Use of magic number '26'
+problem: JAVA0076:JAVA0076 Use of magic number '13'
+problem: JAVA0076:JAVA0076 Use of magic number '26'
+problem: JAVA0179:JAVA0179 Local variable 'decoder' hides visible field
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0179:JAVA0179 Local variable 'encoder' hides visible field
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0143:JAVA0143 Synchronized method 'xor'
+problem: JAVA0143:JAVA0143 Synchronized method 'xorDecode'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0143:JAVA0143 Synchronized method 'xorEncode'
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/FailOpenAuthentication.java
+problem: JAVA0054:JAVA0054 Inheritance depth 5 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0094:JAVA0094 Field 'ASPECT_LOGO' hides a superclass field
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0288:JAVA0288 Inconsistent null check of variable 'username'
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'username'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForcedBrowsing.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ForgotPassword.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'populateTables' does not use instance fields
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'color' (maximum: 0)
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HiddenFieldTampering.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'HiddenFieldTampering'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'price' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HtmlClues.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'backdoor' does not use instance fields
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'makeUser' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpBasics.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'person' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpOnly.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'httpOnly' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'action' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (httpOnly == true)
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (httpOnly == false)
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (httpOnly == true)
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (httpOnly == true)
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0130:JAVA0130 Non-static method 'getJavaScript' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'getOffset' does not use instance fields
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/HttpSplitting.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0160:JAVA0160 Method 'doCachePoisining' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JSONInjection.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/JavaScriptValidation.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0076:JAVA0076 Use of magic number '25'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAction.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'handleRequest' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'getNextPage' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'getActionName' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'requiresAuthentication' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'isAuthenticated' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'isAuthorized' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'getUserId' in interface 'LessonAction'
+problem: JAVA0141:JAVA0141 Unnecessary modifier 'public' for method 'getUserName' in interface 'LessonAction'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LessonAdapter.java
+problem: JAVA0011:JAVA0011 Abstract class 'LessonAdapter' does not contain an abstract method
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 23 methods defined in class 'LessonAdapter' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage1' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage2' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage3' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage4' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage5' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'doStage6' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'text'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'e'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/LogSpoofing.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/NewLesson.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/PathBasedAccessControl.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'file' (maximum: 0)
+problem: JAVA0163:JAVA0163 Empty statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'upDirCount' does not use instance fields
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ReflectedXSS.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RemoteAdminFlaw.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/DeleteProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'deleteEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'deleteEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/EditProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/FindProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0171:JAVA0171 Unused local variable 'id'
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'findEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ListStaff.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0160:JAVA0160 Method 'getAllEmployees' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0160:JAVA0160 Method 'getAllEmployees_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Login.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/Logout.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/RoleBasedAccessControl.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DESCRIPTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_NOTES'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN_LIMIT'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SALARY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'START_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'MANAGER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS1'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS2'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PHONE_NUMBER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'TITLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SSN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LAST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FIRST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PASSWORD'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'USER_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHNAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHRESULT_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'STAFF_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGIN_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGOUT_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LISTSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FINDPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'VIEWPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EDITPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'UPDATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CREATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DELETEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ERROR_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0143:JAVA0143 Synchronized method 'getConnection'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0059:JAVA0059 Method override 'getSourceFileName' only calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/SearchStaff.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/UpdateProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'changeEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0171:JAVA0171 Unused local variable 'answer_results'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'changeEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0171:JAVA0171 Unused local variable 'answer_results'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'getNextUID' does not use instance fields
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'createEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/RoleBasedAccessControl/ViewProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.RoleBasedAccessControl' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ListStaff.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.SQLInjection' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0160:JAVA0160 Method 'getAllEmployees' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0160:JAVA0160 Method 'getAllEmployees_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/Login.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.SQLInjection' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/SQLInjection.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.SQLInjection' does not contain only lower case letters
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DESCRIPTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DISCIPLINARY_NOTES'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN_LIMIT'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CCN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SALARY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'START_DATE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'MANAGER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS1'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ADDRESS2'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PHONE_NUMBER'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'TITLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SSN'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LAST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FIRST_NAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PASSWORD'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'USER_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHNAME'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHRESULT_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'STAFF_ATTRIBUTE_KEY'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGIN_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LOGOUT_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'LISTSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SEARCHSTAFF_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'FINDPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'VIEWPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EDITPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'UPDATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CREATEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DELETEPROFILE_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ERROR_ACTION'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PRIZE_EMPLOYEE_ID'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'PRIZE_EMPLOYEE_NAME'
+problem: JAVA0143:JAVA0143 Synchronized method 'getConnection'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0059:JAVA0059 Method override 'getSourceFileName' only calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SQLInjection/ViewProfile.java
+problem: JAVA0001:JAVA0001 Package name 'org.owasp.webgoat.lessons.SQLInjection' does not contain only lower case letters
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 'userId'
+problem: JAVA0160:JAVA0160 Method 'getEmployeeProfile_BACKUP' does not throw specified exception 'org.owasp.webgoat.session.UnauthorizedException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SilentTransactions.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SoapRequest.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'connection'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'firstName'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'lastName'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'loginCount'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ccNumber'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0179:JAVA0179 Local variable 'connection' hides visible field
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.next() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlNumericInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'SqlNumericInjection' missing constructor
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0177:JAVA0177 Variable declaration 'query' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'SQLException'
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ClassNotFoundException'
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0179:JAVA0179 Local variable 'station' hides visible field
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/SqlStringInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'SqlStringInjection' missing constructor
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/StoredXss.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'title' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'message' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/ThreadSafetyProblem.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'ThreadSafetyProblem' missing constructor
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/TraceXSS.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/UncheckedEmail.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'to' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'message' (maximum: 0)
+problem: JAVA0177:JAVA0177 Variable declaration 'formatter' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WSDLScanning.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'connection'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'firstName'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'lastName'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'loginCount'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ccNumber'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0179:JAVA0179 Local variable 'connection' hides visible field
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.next() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakAuthenticationCookie.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0160:JAVA0160 Method 'checkCookie' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0160:JAVA0160 Method 'checkParams' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0071:JAVA0071 Strings compared with == (loginID != "")
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'logout' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'encode' does not use instance fields
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0160:JAVA0160 Method 'makeUser' does not throw specified exception 'java.lang.Exception'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WeakSessionID.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ASPECT_LOGO'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0130:JAVA0130 Non-static method 'encode' does not use instance fields
+problem: JAVA0075:JAVA0075 Method parameter 'seq' hides field
+problem: JAVA0276:JAVA0276 Unnecessary use of String constructor String(String)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'sessionid' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WelcomeScreen.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSAXInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'WsSAXInjection' missing constructor
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (xml=xml + (password == null ? "[password]" : password))
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (xml=xml + template2)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/WsSqlInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'WsSqlInjection' missing constructor
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'ccNumber'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0179:JAVA0179 Local variable 'connection' hides visible field
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.next() == true)
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XMLInjection.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'rewardsMap'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0076:JAVA0076 Use of magic number '1001'
+problem: JAVA0076:JAVA0076 Use of magic number '20'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0076:JAVA0076 Use of magic number '1001'
+problem: JAVA0076:JAVA0076 Use of magic number '1001'
+problem: JAVA0071:JAVA0071 Strings compared with == (s.getParser().getRawParameter("SUBMIT","") != "")
+problem: JAVA0071:JAVA0071 Strings compared with == (s.getParser().getRawParameter("check1004","") != "")
+problem: JAVA0076:JAVA0076 Use of magic number '1001'
+problem: JAVA0076:JAVA0076 Use of magic number '1001'
+problem: JAVA0071:JAVA0071 Strings compared with == (s.getParser().getRawParameter("check" + i,"") != "")
+problem: JAVA0137:JAVA0137 Non-abstract class 'Reward' missing constructor
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/XPATHInjection.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'username' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'password' (maximum: 0)
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 't2'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/AdminScreen.java
+problem: JAVA0011:JAVA0011 Abstract class 'AdminScreen' does not contain an abstract method
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0016:JAVA0016 Abstract class 'AdminScreen' contains public constructor
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0016:JAVA0016 Abstract class 'AdminScreen' contains public constructor
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0016:JAVA0016 Abstract class 'AdminScreen' contains public constructor
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ProductsAdminScreen.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/RefreshDBScreen.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'refresh' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ReportCardScreen.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0130:JAVA0130 Non-static method 'makeFeedback' does not use instance fields
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'makeLessonRow' does not use instance fields
+problem: JAVA0076:JAVA0076 Use of magic number '9'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0076:JAVA0076 Use of magic number '9'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0076:JAVA0076 Use of magic number '9'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0173:JAVA0173 Unused method parameter 's'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0130:JAVA0130 Non-static method 'makeUserHeaderRow' does not use instance fields
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/SummaryReportCardScreen.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0130:JAVA0130 Non-static method 'deleteUser' does not use instance fields
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/UserAdminScreen.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/ViewDatabase.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (results.first() == true)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/lessons/admin/WelcomeAdminScreen.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/servlets/Controller.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/Authorization.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'Authorization'
+problem: JAVA0173:JAVA0173 Unused method parameter 'functionId'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/Course.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'roles'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'roles'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'roles'
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (lesson.getHidden() == false)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'enterprise'
+problem: JAVA0173:JAVA0173 Unused method parameter 'enterprise'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/CreateDB.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'connection'
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'connection'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0130:JAVA0130 Non-static method 'createMessageTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createProductTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createUserAdminTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createUserDataTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createLoginTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createWeatherDataTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createEmployeeTable' does not use instance fields
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0130:JAVA0130 Non-static method 'createRolesTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createAuthTable' does not use instance fields
+problem: JAVA0130:JAVA0130 Non-static method 'createOwnershipTable' does not use instance fields
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/DatabaseUtilities.java
+problem: JAVA0014:JAVA0014 Class 'DatabaseUtilities' with only static members has non-private constructor
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'servletContextRealPath'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0160:JAVA0160 Method 'writeTable' does not throw specified exception 'java.io.IOException'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/ECSFactory.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 22 methods defined in class 'ECSFactory' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0173:JAVA0173 Unused method parameter 'value'
+problem: JAVA0138:JAVA0138 6 parameters defined for method 'makeInput' (maximum: 5)
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(boolean)
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(String)
+problem: JAVA0138:JAVA0138 6 parameters defined for method 'makeInput' (maximum: 5)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (href=href + "=" + value)
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(boolean)
+problem: JAVA0173:JAVA0173 Unused method parameter 'value'
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(boolean)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'name'
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0138:JAVA0138 6 parameters defined for method 'makeSelect' (maximum: 5)
+problem: JAVA0138:JAVA0138 7 parameters defined for method 'makeSelect' (maximum: 5)
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/Employee.java
+problem: JAVA0100:JAVA0100 Class contains 16 non-final fields (maximum: 8)
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 29 methods defined in class 'Employee' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'Employee' is Serializable but does not define serialVersionUID
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'EMPLOYEE_ROLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'MANAGER_ROLE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'HR_ROLE'
+problem: JAVA0138:JAVA0138 16 parameters defined for method 'Employee' (maximum: 5)
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/EmployeeStub.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'EmployeeStub' is Serializable but does not define serialVersionUID
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/ErrorScreen.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0098:JAVA0098 Minimize use of implicit field initializers
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'content' missing initializer
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonSession.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'LessonSession' missing constructor
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/LessonTracker.java
+problem: JAVA0100:JAVA0100 Class contains 10 non-final fields (maximum: 8)
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 27 methods defined in class 'LessonTracker' (maximum: 20)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'screen'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'user'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'in'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'screen'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'screen'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'user'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'out'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/Parameter.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0098:JAVA0098 Minimize use of implicit field initializers
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterNotFoundException.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'ParameterNotFoundException' is Serializable but does not define serialVersionUID
+problem: JAVA0058:JAVA0058 Constructor 'ParameterNotFoundException' calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/ParameterParser.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 53 methods defined in class 'ParameterParser' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'clean' does not use instance fields
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(String)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0278:JAVA0278 Unnecessary use of Boolean constructor Boolean(String)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getByteParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ParameterNotFoundException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getDoubleParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getFloatParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'value' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'octetValue' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'octet' missing initializer
+problem: JAVA0081:JAVA0081 Boolean literal in comparison (valid == true)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getIntParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getLongParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0126:JAVA0126 Method 'getShortParameter' declares unchecked exception 'NumberFormatException' in throws
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'value' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'value' missing initializer
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ParameterNotFoundException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ValidationException'
+problem: JAVA0160:JAVA0160 Method 'getRegexParameter' does not throw specified exception 'org.owasp.webgoat.session.ValidationException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ParameterNotFoundException'
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'ValidationException'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0160:JAVA0160 Method 'getZipParameter' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'getPhoneParameter' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'getEMailParameter' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'getDateParameter' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0160:JAVA0160 Method 'getURLParameter' does not throw specified exception 'org.owasp.webgoat.session.ParameterNotFoundException'
+problem: JAVA0075:JAVA0075 Method parameter 'request' hides field
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/Screen.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 22 methods defined in class 'Screen' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0016:JAVA0016 Abstract class 'Screen' contains public constructor
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'Screen'
+problem: JAVA0173:JAVA0173 Unused method parameter 'props'
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0123:JAVA0123 Use all three components of for loop
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthenticatedException.java
+problem: JAVA0024:JAVA0024 Empty class 'UnauthenticatedException'
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'UnauthenticatedException' is Serializable but does not define serialVersionUID
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/UnauthorizedException.java
+problem: JAVA0024:JAVA0024 Empty class 'UnauthorizedException'
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'UnauthorizedException' is Serializable but does not define serialVersionUID
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/UserTracker.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0130:JAVA0130 Non-static method 'getUserMap' does not use instance fields
+problem: JAVA0143:JAVA0143 Synchronized method 'instance'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/ValidationException.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'ValidationException' is Serializable but does not define serialVersionUID
+problem: JAVA0058:JAVA0058 Constructor 'ValidationException' calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebSession.java
+problem: JAVA0100:JAVA0100 Class contains 31 non-final fields (maximum: 8)
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 71 methods defined in class 'WebSession' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'STAGE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOWHINTS'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW_NEXTHINT'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW_PREVIOUSHINT'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW_PARAMS'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW_COOKIES'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'SHOW_SOURCE'
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0013:JAVA0013 Non-blank final field 'DEBUG' is not static
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'session' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'showCookies' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'showParams' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'showRequest' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'showSource' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'defuseOSCommands' (maximum: 0)
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'enterprise' (maximum: 0)
+problem: JAVA0143:JAVA0143 Synchronized method 'getConnection'
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'screen' (maximum: 0)
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0130:JAVA0130 Non-static method 'makeQuery' does not use instance fields
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (thisLink=thisLink + name + "="+ request.getParameter(name))
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'cookieName'
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'fileName'
+problem: JAVA0075:JAVA0075 Method parameter 'request' hides field
+problem: JAVA0075:JAVA0075 Method parameter 'response' hides field
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'IOException'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0109:JAVA0109 Incorrect javadoc: no parameter '@param'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'role'
+problem: JAVA0082:JAVA0082 Unnecessary widening cast ((String)getCurrentLesson().getHint(getHintNum()))
+problem: JAVA0082:JAVA0082 Unnecessary widening cast ((String)getCurrentLesson().getHint(getHintNum()))
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/session/WebgoatProperties.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'WebgoatProperties' is Serializable but does not define serialVersionUID
+problem: JAVA0160:JAVA0160 Method 'WebgoatProperties' does not throw specified exception 'java.io.IOException'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0130:JAVA0130 Non-static method 'trimLesson' does not use instance fields
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'properties'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/Exec.java
+problem: JAVA0014:JAVA0014 Class 'Exec' with only static members has non-private constructor
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0177:JAVA0177 Variable declaration 'watcher' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'watcher' missing initializer
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Throwable' caught
+problem: JAVA0177:JAVA0177 Variable declaration 'results' missing initializer
+problem: JAVA0076:JAVA0076 Use of magic number '1000'
+problem: JAVA0076:JAVA0076 Use of magic number '1000'
+problem: JAVA0076:JAVA0076 Use of magic number '1000'
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecResults.java
+problem: JAVA0100:JAVA0100 Class contains 11 non-final fields (maximum: 8)
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0136:JAVA0136 21 methods defined in class 'ExecResults' (maximum: 20)
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0068:JAVA0068 Modifiers not declared in recommended order
+problem: JAVA0130:JAVA0130 Non-static method 'contains' does not use instance fields
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/ExecutionException.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0234:JAVA0234 Class 'ExecutionException' is Serializable but does not define serialVersionUID
+problem: JAVA0058:JAVA0058 Constructor 'ExecutionException' calls super()
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/HtmlEncoder.java
+problem: JAVA0014:JAVA0014 Class 'HtmlEncoder' with only static members has non-private constructor
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0076:JAVA0076 Use of magic number '236'
+problem: JAVA0076:JAVA0076 Use of magic number '237'
+problem: JAVA0076:JAVA0076 Use of magic number '238'
+problem: JAVA0076:JAVA0076 Use of magic number '239'
+problem: JAVA0076:JAVA0076 Use of magic number '236'
+problem: JAVA0076:JAVA0076 Use of magic number '237'
+problem: JAVA0076:JAVA0076 Use of magic number '238'
+problem: JAVA0076:JAVA0076 Use of magic number '239'
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0270:JAVA0270 Use Java 5.0 enhanced for loop construct to iterate over all elements in an array
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0177:JAVA0177 Variable declaration 'i' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'i' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'iso' missing initializer
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/Interceptor.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
+problem: JAVA0287:JAVA0287 Unnecessary null check: variable 'osgSocket' is non-null
+path: /WebGoat5.0/JavaSource/org/owasp/webgoat/util/ThreadWatcher.java
+problem: JAVA0114:JAVA0114 Incorrect javadoc: no @version tag
